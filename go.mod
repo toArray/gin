@@ -2,11 +2,7 @@ module luoqiangGin
 
 go 1.17
 
-require (
-	github.com/BurntSushi/toml v0.4.1
-	github.com/gin-gonic/gin v1.7.4
-	github.com/go-sql-driver/mysql v1.6.0
-)
+require github.com/gin-gonic/gin v1.7.4
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect

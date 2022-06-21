@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"luoqiangGin/internal/app"
 )
 
+//项目启动
 func main() {
-	fmt.Println()
 	app.Init()
 }
