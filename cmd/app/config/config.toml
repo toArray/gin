@@ -1,1 +1,19 @@
 #整体基础配置TOML文件
+App_name = "gin_demo"
+Debug = "true"
+httpport = "8022"
+#可能的值:DEBUG, INFO, WARNING, ERROR, FATAL
+log_level = "DEBUG"
+
+
+[mysql]
+hostname = "127.0.0.1"
+port = "3306"
+username = "root"
+database = "gin_demo1"
+password = "123456"
+charset = "utf8"
+
+[redis]
+addr = '127.0.0.1:6379'
+password = 'Yif@t0ng'
